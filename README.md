@@ -1,48 +1,40 @@
-The AI powered weather-forecast-alert-system is an intelligent meteorological monitoring and decision-support application designed to ingest real-time and forecasted weather data, evaluate environmental risk thresholds, and deliver proactive alerts across multiple interfaces. Built with Python, FastAPI, Streamlit, Pandas, Matplotlib, and SQLite, the system seamlessly bridges OpenWeatherMap, Open-Meteo's zero-key live API, and a deterministic offline simulation engine (data/sample_weather.json) so users can test, demonstrate, and analyze severe weather scenarios—including heatwaves, heavy rain and storms, high humidity, strong winds, and poor air quality—without relying on expensive hardware or uninterrupted network access.
+# 🌦️ Weather Forecast & Automated Risk Alert Application
 
-Beyond basic weather lookup, this project transforms raw meteorological time-series into actionable operational intelligence for travelers, farmers, logistics planners, event organizers, and everyday users. By pairing a threshold-based alert rule engine with SQLite historical caching, FastAPI REST endpoints, downloadable CSV and TXT audit reports, and a colorful interactive Streamlit dashboard featuring area charts and a 3D PyDeck geospatial city map, the application demonstrates end-to-end software engineering, API integration, data processing, and data visualization in a clean, GitHub-ready portfolio repository.
+An industry-oriented Python application that ingests real-time and forecasted meteorological data, evaluates severe weather thresholds (Heat, Rain/Storm, High Humidity, Gale Winds, and Air Quality), serves JSON endpoints via **FastAPI**, and renders interactive charts and maps in a **Streamlit** dashboard.
 
+---
 
-✨ Key Features
-Multi-Source Weather Ingestion: Supports OpenWeatherMap API, Open-Meteo Free Live API (no API key required), and an offline Virtual Simulation Mode (Mumbai, Delhi, London, Tokyo).
-Automated Risk Alert Engine: Evaluates current and 24-hour forecast peaks against customizable thresholds for Temperature (°C), Rain Probability (%), Humidity (%), Wind Speed (m/s), and Air Quality Index (AQI) with CRITICAL, WARNING, and INFO severity levels.
-Colorful Interactive Streamlit Dashboard: Features gradient KPI cards, severity-coded alert banners, multi-metric area charts, an interactive PyDeck geospatial city map, SQLite query logs, and one-click report downloads.
-FastAPI REST Backend: Exposes /health, /weather/{city}, and /logs endpoints with interactive Swagger documentation.
-Automated Charts & Reports: Generates high-resolution Matplotlib PNG charts in outputs/ and timestamped .csv and .txt reports in reports/.
+## 📌 Problem Statement & Industry Relevance
+Manual weather monitoring is reactive and error-prone. Organizations across **logistics, agriculture, aviation, construction, and event management** require automated systems that continuously evaluate forecast metrics and trigger actionable risk advisories before disruptions occur.
 
+## ✨ Key Features
+- **Multi-Source Ingestion:** Seamlessly switches between **OpenWeatherMap API**, **Open-Meteo Free API** (zero-key), and an offline **Virtual Simulation Mode**.
+- **Automated Risk Rule Engine:** Evaluates current and 24-hour forecast peaks against customizable thresholds for Temperature, Rain Probability, Humidity, Wind Speed, and US AQI.
+- **FastAPI REST Backend:** Exposes `/weather/{city}`, `/logs`, and `/health` endpoints with interactive Swagger UI docs.
+- **Interactive Streamlit Dashboard:** Displays KPI cards, severity-coded alert banners, multi-metric trend charts, and geospatial city maps.
+- **SQLite Caching & Automated Reporting:** Logs historical queries into SQLite and exports downloadable `.csv` forecast tables, `.txt` audit reports, and `.png` Matplotlib charts.
 
-🛠️ Tech Stack
-Language: Python 3.10+
-Backend API: FastAPI, Uvicorn, Pydantic
-Frontend Dashboard: Streamlit, PyDeck
-Data Processing & Visualization: Pandas, Matplotlib
-Database & Configuration: SQLite3, Requests, Python-Dotenv
+## 🛠️ Tech Stack
+- **Language:** Python 3.10+
+- **Backend API:** FastAPI, Uvicorn, Pydantic
+- **Frontend Dashboard:** Streamlit
+- **Data Processing & Visualization:** Pandas, Matplotlib
+- **Database & Storage:** SQLite3, JSON, CSV
+- **HTTP & Config:** Requests, Python-Dotenv
 
-
-📂 Project Folder Structure
+## 📂 Project Structure
+```text
 Weather-Forecast-Alert-Application/
-├── data/
-│   ├── sample_weather.json
-│   └── weather_cache.db
-├── src/
-│   ├── __init__.py
-│   ├── config.py
-│   ├── weather_fetcher.py
-│   ├── data_processor.py
-│   ├── alert_engine.py
-│   ├── visualizer.py
-│   ├── report_generator.py
-│   └── api.py
-├── outputs/
-├── reports/
-├── images/
-├── docs/
-├── dashboard.py
-├── main.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
+├── data/               # Offline simulation JSON & SQLite cache
+├── src/                # Modular ingestion, processing, alert, API & chart modules
+├── outputs/            # Generated Matplotlib PNG trend charts
+├── reports/            # Generated CSV forecast & TXT alert reports
+├── images/             # Application screenshots
+├── dashboard.py        # Streamlit web dashboard
+├── main.py             # CLI runner
+├── requirements.txt    # Dependencies
+├── .env.example        # Environment configuration template
+└── README.md           # Documentation
 
 
 💻 PowerShell Setup & Execution Commands
