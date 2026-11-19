@@ -1,0 +1,9 @@
+timestamp,temp_c,humidity,wind_speed_ms,rain_prob_pct,condition,city
+2026-11-19 00:00,26.6,49,2.84,0.0,Clear / Fair,Mumbai
+2026-11-19 03:00,25.4,47,3.08,0.0,Clear / Fair,Mumbai
+2026-11-19 06:00,24.6,47,2.92,0.0,Clear / Fair,Mumbai
+2026-11-19 09:00,27.6,37,2.87,0.0,Clear / Fair,Mumbai
+2026-11-19 12:00,32.7,24,1.71,0.0,Clear / Fair,Mumbai
+2026-11-19 15:00,32.9,23,1.6,0.0,Clear / Fair,Mumbai
+2026-11-19 18:00,28.6,61,3.19,0.0,Clear / Fair,Mumbai
+2026-11-19 21:00,27.7,49,3.45,0.0,Clear / Fair,Mumbai

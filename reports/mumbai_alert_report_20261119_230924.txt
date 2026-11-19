@@ -1,0 +1,26 @@
+=================================================================
+WEATHER FORECAST & RISK ALERT REPORT — MUMBAI (IN)
+=================================================================
+Generated At : 2026-11-19 23:09:24
+Data Source  : Open-Meteo Live API (No-Key)
+Coordinates  : Lat 19.07283, Lon 72.88261
+-----------------------------------------------------------------
+1. CURRENT OBSERVATION
+   Temperature  : 26.5°C (Feels like 25.2°C)
+   Humidity     : 39%
+   Wind Speed   : 3.09 m/s
+   Rain Prob    : 0.0%
+   Air Quality  : US AQI 152
+   Condition    : Live Meteorological Observation
+-----------------------------------------------------------------
+2. FORECAST SUMMARY (24-HOUR OUTLOOK)
+   Temp Range   : 24.6°C to 32.9°C (Avg: 28.3°C)
+   Avg Humidity : 42.1%
+   Peak Rain    : 0.0%
+   Peak Wind    : 3.5 m/s
+-----------------------------------------------------------------
+3. AUTOMATED RISK ALERTS & RECOMMENDATIONS
+   [WARNING] 1. Air Quality Alert (AQI 152 vs limit AQI 150)
+       Detail : Unhealthy air quality detected in Mumbai (US AQI: 152).
+       Action : Wear N95 masks outdoors and limit prolonged outdoor exertion.
+=================================================================

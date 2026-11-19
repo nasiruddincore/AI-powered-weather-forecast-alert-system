@@ -1,0 +1,110 @@
+﻿{
+  "Mumbai": {
+    "city": "Mumbai",
+    "country": "IN",
+    "lat": 19.0760,
+    "lon": 72.8777,
+    "current": {
+      "timestamp": "2026-11-19 14:00:00",
+      "temp_c": 33.5,
+      "feels_like_c": 39.2,
+      "humidity": 86,
+      "wind_speed_ms": 6.4,
+      "weather_main": "Rain",
+      "weather_desc": "heavy intensity rain",
+      "rain_prob_pct": 85.0,
+      "aqi": 112
+    },
+    "forecast": [
+      {"timestamp": "2026-11-19 15:00:00", "temp_c": 32.8, "humidity": 88, "wind_speed_ms": 7.1, "rain_prob_pct": 90.0, "condition": "Heavy Rain"},
+      {"timestamp": "2026-11-19 18:00:00", "temp_c": 30.2, "humidity": 91, "wind_speed_ms": 8.5, "rain_prob_pct": 80.0, "condition": "Thunderstorm"},
+      {"timestamp": "2026-11-19 21:00:00", "temp_c": 28.9, "humidity": 89, "wind_speed_ms": 6.2, "rain_prob_pct": 65.0, "condition": "Moderate Rain"},
+      {"timestamp": "2026-11-20 00:00:00", "temp_c": 27.5, "humidity": 85, "wind_speed_ms": 5.0, "rain_prob_pct": 40.0, "condition": "Cloudy"},
+      {"timestamp": "2026-11-20 03:00:00", "temp_c": 26.8, "humidity": 82, "wind_speed_ms": 4.3, "rain_prob_pct": 30.0, "condition": "Overcast"},
+      {"timestamp": "2026-11-20 06:00:00", "temp_c": 27.4, "humidity": 80, "wind_speed_ms": 4.8, "rain_prob_pct": 35.0, "condition": "Light Rain"},
+      {"timestamp": "2026-11-20 09:00:00", "temp_c": 30.5, "humidity": 76, "wind_speed_ms": 5.9, "rain_prob_pct": 50.0, "condition": "Scattered Showers"},
+      {"timestamp": "2026-11-20 12:00:00", "temp_c": 32.9, "humidity": 74, "wind_speed_ms": 6.7, "rain_prob_pct": 55.0, "condition": "Humid & Cloudy"}
+    ]
+  },
+  "Delhi": {
+    "city": "Delhi",
+    "country": "IN",
+    "lat": 28.6139,
+    "lon": 77.2090,
+    "current": {
+      "timestamp": "2026-11-19 14:00:00",
+      "temp_c": 41.2,
+      "feels_like_c": 43.0,
+      "humidity": 28,
+      "wind_speed_ms": 4.2,
+      "weather_main": "Haze",
+      "weather_desc": "extreme heat and poor air quality",
+      "rain_prob_pct": 5.0,
+      "aqi": 285
+    },
+    "forecast": [
+      {"timestamp": "2026-11-19 15:00:00", "temp_c": 42.1, "humidity": 25, "wind_speed_ms": 4.8, "rain_prob_pct": 0.0, "condition": "Scorching Sun"},
+      {"timestamp": "2026-11-19 18:00:00", "temp_c": 38.4, "humidity": 30, "wind_speed_ms": 3.9, "rain_prob_pct": 0.0, "condition": "Haze"},
+      {"timestamp": "2026-11-19 21:00:00", "temp_c": 33.0, "humidity": 38, "wind_speed_ms": 3.1, "rain_prob_pct": 5.0, "condition": "Clear Night"},
+      {"timestamp": "2026-11-20 00:00:00", "temp_c": 29.5, "humidity": 42, "wind_speed_ms": 2.8, "rain_prob_pct": 5.0, "condition": "Smog"},
+      {"timestamp": "2026-11-20 03:00:00", "temp_c": 27.1, "humidity": 46, "wind_speed_ms": 2.5, "rain_prob_pct": 5.0, "condition": "Mist"},
+      {"timestamp": "2026-11-20 06:00:00", "temp_c": 26.8, "humidity": 48, "wind_speed_ms": 3.0, "rain_prob_pct": 5.0, "condition": "Hazy Morning"},
+      {"timestamp": "2026-11-20 09:00:00", "temp_c": 34.2, "humidity": 34, "wind_speed_ms": 4.1, "rain_prob_pct": 0.0, "condition": "Sunny"},
+      {"timestamp": "2026-11-20 12:00:00", "temp_c": 40.5, "humidity": 26, "wind_speed_ms": 5.0, "rain_prob_pct": 0.0, "condition": "Heatwave"}
+    ]
+  },
+  "London": {
+    "city": "London",
+    "country": "GB",
+    "lat": 51.5074,
+    "lon": -0.1278,
+    "current": {
+      "timestamp": "2026-11-19 14:00:00",
+      "temp_c": 11.4,
+      "feels_like_c": 8.9,
+      "humidity": 84,
+      "wind_speed_ms": 14.8,
+      "weather_main": "Windy",
+      "weather_desc": "gale gusts and light drizzle",
+      "rain_prob_pct": 70.0,
+      "aqi": 38
+    },
+    "forecast": [
+      {"timestamp": "2026-11-19 15:00:00", "temp_c": 11.0, "humidity": 86, "wind_speed_ms": 15.6, "rain_prob_pct": 75.0, "condition": "Gale & Rain"},
+      {"timestamp": "2026-11-19 18:00:00", "temp_c": 9.8, "humidity": 88, "wind_speed_ms": 13.9, "rain_prob_pct": 65.0, "condition": "Drizzle"},
+      {"timestamp": "2026-11-19 21:00:00", "temp_c": 8.5, "humidity": 85, "wind_speed_ms": 11.2, "rain_prob_pct": 45.0, "condition": "Breezy"},
+      {"timestamp": "2026-11-20 00:00:00", "temp_c": 7.9, "humidity": 83, "wind_speed_ms": 9.5, "rain_prob_pct": 30.0, "condition": "Cloudy"},
+      {"timestamp": "2026-11-20 03:00:00", "temp_c": 7.2, "humidity": 84, "wind_speed_ms": 8.8, "rain_prob_pct": 25.0, "condition": "Overcast"},
+      {"timestamp": "2026-11-20 06:00:00", "temp_c": 7.5, "humidity": 82, "wind_speed_ms": 9.1, "rain_prob_pct": 35.0, "condition": "Light Fog"},
+      {"timestamp": "2026-11-20 09:00:00", "temp_c": 9.4, "humidity": 78, "wind_speed_ms": 10.4, "rain_prob_pct": 40.0, "condition": "Partly Cloudy"},
+      {"timestamp": "2026-11-20 12:00:00", "temp_c": 11.8, "humidity": 75, "wind_speed_ms": 11.0, "rain_prob_pct": 30.0, "condition": "Cool & Breezy"}
+    ]
+  },
+  "Tokyo": {
+    "city": "Tokyo",
+    "country": "JP",
+    "lat": 35.6762,
+    "lon": 139.6503,
+    "current": {
+      "timestamp": "2026-11-19 14:00:00",
+      "temp_c": 18.5,
+      "feels_like_c": 18.0,
+      "humidity": 52,
+      "wind_speed_ms": 3.5,
+      "weather_main": "Clear",
+      "weather_desc": "clear sky and pleasant breeze",
+      "rain_prob_pct": 10.0,
+      "aqi": 42
+    },
+    "forecast": [
+      {"timestamp": "2026-11-19 15:00:00", "temp_c": 18.2, "humidity": 54, "wind_speed_ms": 3.8, "rain_prob_pct": 10.0, "condition": "Clear"},
+      {"timestamp": "2026-11-19 18:00:00", "temp_c": 15.6, "humidity": 60, "wind_speed_ms": 3.2, "rain_prob_pct": 10.0, "condition": "Clear"},
+      {"timestamp": "2026-11-19 21:00:00", "temp_c": 13.8, "humidity": 65, "wind_speed_ms": 2.9, "rain_prob_pct": 15.0, "condition": "Partly Cloudy"},
+      {"timestamp": "2026-11-20 00:00:00", "temp_c": 12.4, "humidity": 68, "wind_speed_ms": 2.5, "rain_prob_pct": 15.0, "condition": "Clear"},
+      {"timestamp": "2026-11-20 03:00:00", "temp_c": 11.5, "humidity": 70, "wind_speed_ms": 2.4, "rain_prob_pct": 10.0, "condition": "Clear"},
+      {"timestamp": "2026-11-20 06:00:00", "temp_c": 12.0, "humidity": 67, "wind_speed_ms": 2.7, "rain_prob_pct": 10.0, "condition": "Sunny"},
+      {"timestamp": "2026-11-20 09:00:00", "temp_c": 15.9, "humidity": 58, "wind_speed_ms": 3.4, "rain_prob_pct": 5.0, "condition": "Sunny"},
+      {"timestamp": "2026-11-20 12:00:00", "temp_c": 18.9, "humidity": 50, "wind_speed_ms": 4.0, "rain_prob_pct": 5.0, "condition": "Clear Sky"}
+    ]
+  }
+}
